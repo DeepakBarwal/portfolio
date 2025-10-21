@@ -105,7 +105,7 @@ export const DATA = {
     {
       title: "pdf-gupshup",
       href: "https://pdf-gupshup.vercel.app",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description:
         "Architected full-stack AI document assistant enabling conversational PDF querying through Next.js, LangChain, and OpenAI embeddings, implementing dual-parser fallback strategy to handle diverse document structures. Engineered scalable vector search pipeline using Pinecone with per-file namespace isolation and batched embedding generation. Built end-to-end monetization infrastructure integrating Stripe subscription webhooks, Clerk authentication with SSR guards, and S3 presigned URLs for reliable region-aware uploads.",
@@ -132,13 +132,13 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "",
+      image: "/pdf-gupshup.png",
       video: "",
     },
     {
       title: "Banalo",
       href: "https://banalo.vercel.app",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description:
         "Architected a full-stack design platform using Next.js 15 and Fabric.js for canvas manipulation, enabling users to create and edit designs with 20+ tools including shapes, text styling, image filters, and freehand drawing with real-time state management. Built type-safe API layer with Hono and Zod validation handling project CRUD operations, subscription management, and integrated Replicate AI for background removal and Stable Diffusion 3 for AI image generation.",
@@ -164,8 +164,31 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "",
+      image: "/banalo.png",
       video: "",
+    },
+    {
+      title: "GTA 6 Landing Page",
+      href: "https://gta6-nine.vercel.app",
+      dates: "2025",
+      active: true,
+      description:
+        "Developed an immersive, scroll-driven landing page recreation for GTA 6 using React and GSAP. Implemented advanced scroll-triggered animations with mask reveals, video transitions, and parallax effects. Built custom hero sections with dynamic gradient backgrounds, interactive character showcases for Jason and Lucia, and seamless video integrations using GSAP ScrollTrigger for cinematic storytelling.",
+      technologies: ["React", "GSAP", "ScrollTrigger", "Tailwind CSS", "Vite"],
+      links: [
+        {
+          type: "Live Link",
+          href: "https://gta6-nine.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/DeepakBarwal/gta6",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/gta6.mp4",
     },
   ],
   hackathons: [],
